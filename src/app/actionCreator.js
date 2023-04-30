@@ -21,8 +21,7 @@ export const bugResolved = (id) => {
   return {
     type: actionTypes.BUG_RESOLVED,
     payload: {
-      id
+      id,
     },
   };
 };
-

@@ -7,7 +7,7 @@ const unsubscribe = store.subscribe(() => {
 
 store.dispatch(actions.bugAdded('bug1'));
 store.dispatch(actions.bugAdded('bug2'));
-// unsubscribe()
+unsubscribe()
 store.dispatch(actions.bugAdded('bug3'));
 store.dispatch(actions.bugRemoved(1));
 store.dispatch(actions.bugResolved(2));
